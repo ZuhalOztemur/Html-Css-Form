@@ -1,0 +1,158 @@
+<html>
+    <head>
+       <title>Form ve Elemanları</title> 
+       <link rel="stylesheet" href="main.css"/>
+    </head>
+
+   <body>
+     <form>
+
+        <div class= "header">
+         <h1> OYUNCU ANKETİ</h1>
+         <h2>Sivas Cumhuriyet Üniversitesi</h2>
+        </div>
+        
+        <table>
+        <tr>
+        <td>
+
+        <div class="form-elemanlari">
+         <label for="adi">Ad Soyad</label>
+         <input id="adi" type="text" required placeholder="Zuhal ÖZTEMUR"/>   
+        </div>
+        </td>
+        
+        <td>
+        
+            <div class="form-elemanlari">
+            <label for="tel">Telefon</label>
+            <input id="tel" type="tel" required placeholder="+90 (___) ___ __ __"/>   
+           </div>
+        </td>
+        </tr>
+       
+       <tr>
+       <td>
+        <div class="form-elemanlari">
+            <label for="email">Email</label>
+            <input id="email" type="email" required placeholder="example@gmail.com" />   
+        </div>
+       </td>
+        
+       <td>
+        <div class="form-elemanlari">
+            <label for="sehir">Şehir </label>
+            <select id="sehir">
+             <option value="">Seç...</option>
+             <option value="">İstanbul</option>
+             <option value="">Sivas</option>
+             <option value="">İzmir</option>
+            </select>  
+            
+        </div>
+        </td>
+        </tr>
+
+        <tr>
+        <td>
+        <div class="form-elemanlari">
+            <label for="tarih">Tarih</label>
+            <input id ="tarih" type="date"/>
+
+        </div>
+        </td> 
+        
+        <td>
+        <div class="form-elemanlari">
+            <p>Cinsiyetiniz?</p>
+    
+            <div class="radio-butonları">
+              <label ><input type="radio" name="cinsiyet"/>Kadın</label>
+              <label><input type="radio" name="cinsiyet"/>Erkek</label>
+            </div>
+          </div>
+
+
+        
+        </td>
+        </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th>Sorular</th>
+                <th>Az</th>
+                <th>Orta</th>
+                <th>Çok</th>
+            </tr>
+
+            <tr>
+                <td>Oyun oynamayı seviyor musunuz?</td>
+                <td><input type="radio" name="1.soru" ></td>
+                <td><input type="radio" name="1.soru" ></td>
+                <td><input type="radio" name="1.soru" ></td>
+            </tr>
+
+            <tr>
+                <td>Bir günde ne kadar saat oyun oynarsınız?</td>
+                <td><input type="radio" name="2.soru" ></td>
+                <td><input type="radio" name="2.soru" ></td>
+                <td><input type="radio" name="2.soru" ></td>
+            </tr>
+           
+            <tr>
+                <td>Mobil oyun oynar mısınız?</td>
+                <td><input type="radio" name="3.soru" ></td>
+                <td><input type="radio" name="3.soru" ></td>
+                <td><input type="radio" name="3.soru" ></td>
+            </tr>
+           
+            <tr>
+                <td>Sizce ne kadar oyun bağımlısısınız?</td>
+                <td><input type="radio" name="4.soru" ></td>
+                <td><input type="radio" name="4.soru" ></td>
+                <td><input type="radio" name="4.soru" ></td>
+            </tr>
+
+            <tr>
+                <td>E-spor turnuvalarını ne kadar takip ediyorsunuz?</td>
+                <td><input type="radio" name="5.soru" ></td>
+                <td><input type="radio" name="5.soru" ></td>
+                <td><input type="radio" name="5.soru" ></td>
+            </tr>
+
+            <tr>
+                <td>Sizce oyun oynarken insanlarla ne kadar iletişim kurarsınız?</td>
+                <td><input type="radio" name="6.soru" ></td>
+                <td><input type="radio" name="6.soru" ></td>
+                <td><input type="radio" name="6.soru" ></td>
+            </tr>
+
+        </table>
+       
+        <div class="form-elemanlari">
+            <p>En çok hangi oyunu oynarsınız?</p>
+    
+            <div class="radio-butonları">
+              <label><input type="radio"name="oyun"/>Mobile Legends</label>
+              <label><input type="radio" name="oyun"/>League Of Legends</label>
+              <label><input type="radio" name="oyun"/>CSGO</label>
+              <label><input type="radio" name="oyun"/>Call of Duty</label>
+              <label><input type="radio" name="oyun"/>PUBG</label>
+
+            </div>
+          </div>
+       
+        <div class="form-elemanlari">
+            <label for="mesaj">Mesaj</label>
+            <textarea id="mesaj" cols="50" rows="5"></textarea>
+        </div>
+       
+        <div class="form-elemanlari">
+            <button type="reset">Sıfırla</button>
+            <button type="submit">Gönder</button>
+        </div>
+
+     </form>
+   </body> 
+</html>
